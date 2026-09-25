@@ -22,4 +22,5 @@ jobs:
         run: |
           echo repository: ${{github.repository}}
           echo branch: ${{github.ref}}
+          tree
           
